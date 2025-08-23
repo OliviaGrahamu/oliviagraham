@@ -11,6 +11,26 @@ header { text-align: center; margin-bottom: 40px; }
 img.profile { max-width: 200px; border-radius: 50%; }
 section.socials a { margin-right: 10px; }
 footer { margin-top: 40px; }
+  /* Gallery and video styling */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .gallery img {
+    max-width: 200px;
+    border-radius: 8px;
+  }
+  .video {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .video video {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+  }
 </style>
 </head>
 <body>
@@ -27,6 +47,26 @@ footer { margin-top: 40px; }
 <a href="https://twitter.com/oliviag_raham" target="_blank">@oliviag_raham on X</a><br>
 <a href="https://t.co/YQHUTBwh0b" target="_blank">LinkedIn: oliviafgraham</a>
 </p>
+</section>
+<!-- Gallery Section -->
+<section class="gallery">
+  <h2>Gallery</h2>
+  <img src="1752593120846.jpeg" alt="Uploaded image 1">
+  <img src="IMG_1950.JPG" alt="Uploaded image 2">
+  <img src="IMG_2046.PNG" alt="Uploaded image 3">
+  <img src="face1.png" alt="Uploaded image 4">
+  <img src="face2.png" alt="Uploaded image 5">
+  <img src="ogg - Copy.jpg" alt="Uploaded image 6">
+  <img src="highsc.png" alt="Uploaded image 7">
+</section>
+
+<!-- Video Section -->
+<section class="video">
+  <h2>Video</h2>
+  <video controls>
+    <source src="full m.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </section>
 <footer>
 <p>Tags: uwaterloo, nano technology engineering, Olivia Graham, Sharon Graham, Waterloo, Ontario, Canada</p>
